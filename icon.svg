@@ -1,19 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Server酱³ Bot bridge">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2f6df6"/>
-      <stop offset="1" stop-color="#7a3cff"/>
-    </linearGradient>
-    <linearGradient id="bubble" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#e6ecff"/>
-    </linearGradient>
-  </defs>
-  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
-  <path d="M32 10.5c1.9 0 3.5 1.6 3.5 3.5v2.6h-7V14c0-1.9 1.6-3.5 3.5-3.5Z" fill="#dbe4ff" opacity="0.9"/>
-  <circle cx="32" cy="9.5" r="2.6" fill="#ffffff"/>
-  <path d="M18 20h28a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H30l-8.5 7.2a1.6 1.6 0 0 1-2.6-1.25V46H18a6 6 0 0 1-6-6V26a6 6 0 0 1 6-6Z" fill="url(#bubble)"/>
-  <circle cx="24" cy="33" r="2.6" fill="#2f6df6"/>
-  <circle cx="32" cy="33" r="2.6" fill="#4a5bf0"/>
-  <circle cx="40" cy="33" r="2.6" fill="#7a3cff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">对话气泡</title>
+  <desc id="desc">两个对话气泡表示双向消息通信</desc>
+  <defs><marker id="arrow-blue" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#4D6BFE"/></marker><marker id="arrow-blue-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#4D6BFE"/></marker><marker id="arrow-teal" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#14B8A6"/></marker><marker id="arrow-teal-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#14B8A6"/></marker><marker id="arrow-white" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#FFFFFF"/></marker><marker id="arrow-white-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#FFFFFF"/></marker><marker id="arrow-navy" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#111A3A"/></marker><marker id="arrow-navy-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#111A3A"/></marker><marker id="arrow-orange" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#FFB020"/></marker><marker id="arrow-orange-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#FFB020"/></marker><marker id="arrow-ink" markerWidth="46" markerHeight="46" refX="36" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M4 4L38 23L4 42Z" fill="#17213B"/></marker><marker id="arrow-ink-start" markerWidth="46" markerHeight="46" refX="10" refY="23" orient="auto" markerUnits="userSpaceOnUse"><path d="M42 4L10 23L42 42Z" fill="#17213B"/></marker></defs>
+  <rect x="24" y="24" width="976" height="976" rx="224" fill="#4D6BFE"/>
+  
+  <path d="M140 248H574C614 248 640 274 640 314V540C640 580 614 606 574 606H356L250 688L268 606H140C100 606 74 580 74 540V314C74 274 100 248 140 248Z" fill="#FFFFFF"/>
+  <path d="M884 776H450C410 776 384 750 384 710V484C384 444 410 418 450 418H668L774 336L756 418H884C924 418 950 444 950 484V710C950 750 924 776 884 776Z" fill="#14B8A6"/>
+  <g transform="translate(356 428) scale(1.25)" fill="none" stroke="#4D6BFE" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-58-42L-12 0L-58 42"/><path d="M8 44H64"/>
+    </g>
+  <g transform="translate(666 596) scale(1.02)">
+      <path d="M0-48V-76" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="0" cy="-86" r="13" fill="#FFFFFF"/>
+      <rect x="-70" y="-50" width="140" height="112" rx="30" fill="#FFFFFF"/>
+      <circle cx="-28" cy="-4" r="10" fill="#14B8A6"/>
+      <circle cx="28" cy="-4" r="10" fill="#14B8A6"/>
+      <path d="M-27 27H27" stroke="#14B8A6" stroke-width="10" stroke-linecap="round"/>
+      <path d="M-70-10H-86M70-10H86" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+    </g>
+  <path d="M674 214C770 214 838 266 852 344" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" marker-end="url(#arrow-white)"/>
+  <path d="M350 810C254 810 186 758 172 680" fill="none" stroke="#14B8A6" stroke-width="28" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+
 </svg>

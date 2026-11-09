@@ -226,7 +226,8 @@ bot 会话按 `cwd`/`workspaceId` 落在 Workspace 里；它额外注入一段�
 
 - `index.js`：插件主体（多 Bot 链接、工具、轮询、会话桥接、提示词段落）。
 - `api.js`：Bot API 客户端（超时、错误信封、long-poll）。
-- `client.js`：设置页（`settings.section` 槽 + 图标），带 zh/en 词典与主题令牌样式。
+- `client.js`：设置页（`settings.section` 槽 + 单色导航图标），带 zh/en 词典与主题令牌样式。
+- `icon.svg`：插件清单与市场卡片共用的彩色图标（交付源文件）；`assets/icon-180.png` 是市场卡片位图，由 `scripts/render-icon.mjs` 从该 SVG 渲染。
 - `test/bridge.test.mjs`：不联网的冒烟测试，伪造 Bot API 与 Host 服务，覆盖单 Bot、多 Bot、允许列表、首聊配对、未配置、重复 Token、提示词注入、主动回合推送、问题/批准双端应答、聊天命令、Webhook 入站、状态持久化与单实例锁、重启补推，以及设置页 API（鉴权、脱敏、保存、测试消息）。
 
 ```

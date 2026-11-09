@@ -1,6 +1,6 @@
 {
   "name": "dsh-serverchan-bot",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Bridge DeepSeek Harness with Server酱³ Bot: push agent and scheduled output to the phone, answer question/approval cards from either side, run polling or webhook (with a cloudflared tunnel helper), and configure everything in Settings.",
   "license": "MIT",
   "author": "Forget1672",
