@@ -4,8 +4,7 @@
  *   npm i --no-save @resvg/resvg-js    # one-off rasterizer, not a runtime dependency
  *   node scripts/render-icon.mjs
  *
- * `assets/icon-180.png` is the dshmarket storefront tile; `assets/icon-64.png` is
- * a small preview for checking how the artwork reads in a plugin list.
+ * `assets/icon-180.png` is the dshmarket storefront tile.
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { createRequire } from 'node:module'
@@ -21,7 +20,7 @@ try {
 const root = new URL('../', import.meta.url)
 const svg = readFileSync(new URL('icon.svg', root))
 
-for (const [size, file] of [[180, 'assets/icon-180.png'], [64, 'assets/icon-64.png']]) {
+for (const [size, file] of [[180, 'assets/icon-180.png']]) {
   const png = new Resvg(svg, {
     fitTo: { mode: 'width', value: size },
     background: 'rgba(0,0,0,0)',
