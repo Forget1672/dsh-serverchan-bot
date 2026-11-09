@@ -59,7 +59,7 @@ plugin_manager  action=install_bundle  target=/home/mark/dsh-fish/serverchan-bot
 
 ```yaml
 - id: serverchan-bot
-  name: "@local/serverchan-bot"
+  name: "dsh-serverchan-bot"
   config:
     token: "123456:AA..."   # 也可用 SERVERCHAN_BOT_TOKEN
     chatId: "1234567"       # 你的 uid，也可用 SERVERCHAN_BOT_CHAT_ID
@@ -70,7 +70,7 @@ plugin_manager  action=install_bundle  target=/home/mark/dsh-fish/serverchan-bot
 
 ```yaml
 - id: serverchan-bot
-  name: "@local/serverchan-bot"
+  name: "dsh-serverchan-bot"
   config:
     typing: true                    # 顶层字段作为各 bot 的默认值
     pollTimeoutSeconds: 20
