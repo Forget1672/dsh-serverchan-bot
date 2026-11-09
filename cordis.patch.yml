@@ -1,0 +1,38 @@
+# Server酱³ Bot bridge.
+#
+# Single-bot form: fill token/chatId (Bot Token and uid from the Server酱³ app,
+# Bot 管理 → 编辑), or set SERVERCHAN_BOT_TOKEN / SERVERCHAN_BOT_CHAT_ID.
+#
+# Multi-bot form: replace `bots: []` with one entry per Bot, each with its own
+# token, chat and session. When `bots` is non-empty, the top-level token/chatId/
+# allowChatIds/sessionId are ignored and the other top-level fields act as
+# defaults for every entry.
+- insert:
+    - id: serverchan-bot
+      name: 'dsh-serverchan-bot'
+      config:
+        token: ''
+        chatId: ''
+        baseUrl: 'https://bot-go.apijia.cn'
+        allowChatIds: []
+        poll: true
+        mode: 'poll'
+        webhookSecret: ''
+        autoReply: true
+        push: true
+        questions: true
+        typing: true
+        pollTimeoutSeconds: 20
+        replyTimeoutMs: 180000
+        questionTimeoutMs: 600000
+        cardDelayMs: 8000
+        maxReplyChars: 8000
+        workspaceId: ''
+        cwd: ''
+        sessionId: ''
+        sessionTitle: 'Server酱³ Bot'
+        # Example:
+        # bots:
+        #   - { id: work, token: '111111:AAA...', chatId: '5755', sessionId: 'session-work' }
+        #   - { id: home, token: '222222:BBB...', chatId: '6600' }
+        bots: []

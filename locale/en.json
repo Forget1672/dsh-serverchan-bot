@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Server酱³ Bot bridge",
+    "description": "Connects DSH sessions with a Server酱³ Bot: agent replies reach the phone app, and chat messages from the app arrive as prompts."
+  }
+}
